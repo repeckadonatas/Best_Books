@@ -1,0 +1,30 @@
+TO POPULATE TABLES:
+
+table_name : best_books_awards_2NF
+col_name : id, book_id, title, awards
+file_name : best_books_awards_2NF
+
+
+table_name : best_books_characters_2NF
+col_name : id, book_id, title, characters
+file_name : best_books_characters_2NF
+
+
+table_name : best_books_genres_2NF
+col_name : id, book_id, title, genres
+file_name : best_books_genres_2NF
+
+
+table_name : best_books_ratingsByStars_2NF
+col_name : id, book_id, title, ratings_by_stars
+file_name : best_books_ratingsByStars_2NF
+
+
+table_name : best_books_setting_2NF
+col_name : id, book_id, title, setting
+file_name : best_books_setting_2NF
+
+
+table_name : best_books_2NF
+col_name : id, book_id, title, series, author, rating, description, language, isbn, book_format, edition, pages, publisher, publish_date, first_publish_date, num_ratings, liked_percent, cover_img, bbe_score, bbe_votes, price
+file_name : best_books_2NF
